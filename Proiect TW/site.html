@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Site</title>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "site.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    </head>
+    <body>
+        <nav class = "navBar">
+            <div class = "search">
+                <input type = "text" placeholder="Search..">
+                <button type = "submit"> <i class="fas fa-search"></i> </button>
+            </div>
+            <ul class = "navLinks" id = "myNav">
+                <li> <a href = "site.html">Home</a> </li>
+                <li>
+                    <div class = "dropdown">
+                        <button class = "dropdownBtn"> TV Shows </button>
+                        <div class = "dropdownContent1">
+                            <a href = "showsAllTime.html"> All Time </a>
+                            <a href = "#tvShowsTY"> This Year </a>
+                            <a href = "#tvShowsCat"> Genres </a>
+                        </div>
+                    </div> 
+                </li>
+                <li>
+                    <div class = "dropdown">
+                        <button class = "dropdownBtn"> Movies </button>
+                        <div class = "dropdownContent2">
+                            <a href = "#moviesAT"> All Time </a>
+                            <a href = "#moviesTY"> This Year </a>
+                            <a href = "#moviesCat"> Genres </a>
+                        </div>
+                    </div> 
+                </li>
+                <li> <a href = "#logIn">Sign In</a> </li>
+            </ul>
+            <div class="burger" id = "icon" onclick="navPopUp()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div> 
+        </nav>
+        <img class = "bojack" src = "https://i.ibb.co/rbxGYkH/unnamed.png" alt = "Bojack Horseman">
+        <div class = "mainText">
+            <h1 class = "welcome">
+                Welcome, visitor!
+            </h1>
+            <h1 class = "title">
+                This week I recommend watching
+            </h1>
+            <h2 class = "title2">
+                 BoJack Horseman
+            </h2>
+            <p class = "summary">
+                The 6 seasons Netflix Original is, arguably, the best series they've ever aired. 
+                What started out as just a raunchy cartoon show, starring anthropomorphized animals with low-brow humor, eventually turned into one of the most thoughtful and profound explorations of fame, depression, society, and the human condition.
+            </p>
+            <p class = "genres">
+                If you are interested in one of the following genres, then you definetly need to give BoJack Horseman a chance.
+            </p>
+            <div class = "logoG">
+                <img src = "https://i.ibb.co/vd6X97k/animation.png" alt = "Animation">
+                <img src = "https://i.ibb.co/L16Ws0y/comedy.png" alt = "Comedy">
+                <img src = "https://i.ibb.co/f48mYdx/drama.png" alt = "Drama">
+            </div>
+            <p class = "details">
+                For more details about this TV Show check the following: 
+                <a href = "https://www.imdb.com/title/tt3398228/?ref_=nv_sr_srsg_0" target="_blank" id = "imdb"> <img src = "https://i.ibb.co/KKQL62j/imdb.png" alt= "IMDB"></a>
+                <a href = "https://www.rottentomatoes.com/tv/bojack_horseman" target="_blank" id = "rottenTomatoes"> <img src = "https://i.ibb.co/GJYvLPQ/rotten-Tomatoes.png" alt= "Rotten Tomatoes"></a>
+            </p>
+        </div>
+        <h1 class = "similar">
+            Similar shows to BoJack Horseman
+        </h1>
+        <div class = "parinteMarq">
+            <p class="marquee">
+                <span>
+                    American Dad &nbsp; • &nbsp; The Simpsons &nbsp; • &nbsp; Family Guy &nbsp; • &nbsp; South Park &nbsp; • &nbsp; Ugly Americans &nbsp; • &nbsp; The Boondocks &nbsp; • &nbsp; Tuca & Bertie &nbsp; • &nbsp; Rick & Morty &nbsp; • &nbsp; Final Space
+                </span>
+            </p>
+            <p class="marquee marquee2">
+                <span>
+                    American Dad &nbsp; • &nbsp; The Simpsons &nbsp; • &nbsp; Family Guy &nbsp; • &nbsp; South Park &nbsp; • &nbsp; Ugly Americans &nbsp; • &nbsp; The Boondocks &nbsp; • &nbsp; Tuca & Bertie &nbsp; • &nbsp; Rick & Morty &nbsp; • &nbsp; Final Space 
+                </span>
+            </p> 
+        </div>
+    <script src = "nav.js"></script>
+    </body>
+</html>
