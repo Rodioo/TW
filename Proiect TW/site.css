@@ -105,7 +105,7 @@ nav{
     display: inline-block;
 }
 
-.dropdownContent1{
+.dropdownContent1, .dropdownContent2{
     visibility: hidden;
     position: absolute;
     opacity: 0;
@@ -119,41 +119,22 @@ nav{
 .dropdown:hover .dropdownContent1, .dropdown:hover .dropdownContent2{
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
-}
-
-.dropdownContent2{
-    visibility: hidden;
-    position: absolute;
-    opacity: 0;
-    background-color: #1f2833;
-    margin-left: -1.5vw;
-    min-width: 8vw;
-    min-height: 20vh;
-    transition:opacity 1s, transform 1s;
-}
-
-
-.dropdown:hover .dropdownContent1, .dropdown:hover .dropdownContent2{
-    opacity:1;
     display: block;
 }
 
-.dropdownContent1 a{
+.dropdownContent2{
+    margin-left: -1.5vw;
+    
+}
+
+
+.dropdownContent1 a, .dropdownContent2 a{
     text-decoration: none;
     display: block;
     padding-top: 3vh;
     padding-left: 1.5vw;
     margin-top: 1vh;
 
-}
-
-.dropdownContent2 a{
-    text-decoration: none;
-    display: block;
-    padding-top: 3vh;
-    padding-left: 2vw;
-    margin-top: 1vh;
 }
 
 .burger div{
