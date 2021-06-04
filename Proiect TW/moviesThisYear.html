@@ -12,8 +12,10 @@
     <body>
         <nav class = "navBar">
             <div class = "search">
-                <input type = "text" placeholder="Search..">
-                <button type = "submit"> <i class="fas fa-search"></i> </button>
+                <form name = "formular" action="https://www.imdb.com/find?q=" target="_blank" type="GET" onsubmit="return validateForm()">
+                    <input name = "inputText" type = "text" placeholder="Search.." id = "searchBar" onkeypress="searchWithEnter(event)">
+                    <button type = "submit" onclick="searchWithButton()"> <i class="fas fa-search"></i> </button>
+                </form> 
             </div>
             <ul class = "navLinks" id = "myNav">
                 <li> <a href = "site.html">Home</a> </li>
