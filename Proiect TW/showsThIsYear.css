@@ -243,18 +243,22 @@ nav{
 
 .loc1{
     position: absolute;
-    top: 65%;
-    left: 5%;
+    top: 45%;
+    left: 15%;
     font-size: 36px;
+    color: #1f2833;
+    font-weight: bold;
 }
 
 .descriere1{
     position: absolute;
-    top: 75%;
-    bottom: 10%;
-    left: 10%;
+    top: 55%;
+    bottom: 15%;
+    left: 20%;
     font-size: 24px;
     right: 10%;
+    color: #1f2833;
+    font-weight: bold;
 }
   
 .loc2{
@@ -266,7 +270,7 @@ nav{
 
 .descriere2{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 70%;
     right: 5%;
     font-size: 24px;
@@ -274,17 +278,21 @@ nav{
 
 .loc3{
     position: absolute;
-    top: 20%;
-    left: 3%;
+    top: 15%;
+    left: 60%;
     font-size: 36px;
+    color: #1f2833;
+    font-weight: bold;
 }
 
 .descriere3{
     position: absolute;
     top: 30%;
-    left: 8%;
-    right: 60%;
+    left: 65%;
+    right: 10%;
     font-size: 24px;
+    font-weight: bold;
+    color: #1f2833;
 }
   .prev, .next {
     cursor: pointer;

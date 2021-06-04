@@ -18,7 +18,13 @@ function navPopUp() {
         {
             icon.className = "burger";
         }
-}    
+}
+
+function clearCookies(event)
+{
+    localStorage.removeItem("hasCodeRunBefore");
+    alert(event.target.id);
+}
     
     
 
